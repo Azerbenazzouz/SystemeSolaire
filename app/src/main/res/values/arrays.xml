@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="noms">
         <item>Mercure</item>
@@ -34,14 +33,13 @@
     </array>
 
     <string-array name="description">
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
-        <item>Description de la planète</item>
+        <item>Mercure est la planète la plus proche du Soleil.</item>
+        <item>Vénus est la deuxième planète du système solaire.</item>
+        <item>La Terre est notre planète, la troisième à partir du Soleil.</item>
+        <item>Mars est connue comme la planète rouge.</item>
+        <item>Jupiter est la plus grande planète du système solaire.</item>
+        <item>Saturne est célèbre pour ses anneaux.</item>
+        <item>Uranus est une planète géante glacée.</item>
+        <item>Neptune est la planète la plus éloignée du Soleil.</item>
     </string-array>
-
 </resources>
