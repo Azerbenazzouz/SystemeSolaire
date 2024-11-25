@@ -12,14 +12,18 @@ import java.util.List;
 
 public class PlanetController {
     private String[] noms;
-    private int[] distances;
+    private float[] distances;
     private TypedArray imagesArray;
     private String[] description;
     List<PlanetListItem> items = new ArrayList<>();
 
     public PlanetController(Resources res) {
         noms = res.getStringArray(R.array.noms);
-        distances = res.getIntArray(R.array.distances);
+        String[] distancesStr = res.getStringArray(R.array.distances);
+        distances = new float[distancesStr.length];
+        for (int i = 0; i < distancesStr.length; i++) {
+            distances[i] = Float.parseFloat(distancesStr[i]);
+        }
         imagesArray = res.obtainTypedArray(R.array.images);
         description = res.getStringArray(R.array.description);
 

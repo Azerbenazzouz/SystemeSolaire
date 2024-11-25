@@ -45,7 +45,7 @@ public class Details extends AppCompatActivity {
         ImageView image = findViewById(R.id.detail_image);
 
         name.setText(planet.getNom());
-        String distanceText = "Distance au Soleil : " + planet.getDistanceASoleil() + " km";
+        String distanceText = "Distance au Soleil : " + planet.getDistanceASoleil() + " millions de km";
         distance.setText(distanceText);
         description.setText(planet.getDescription());
         image.setImageResource(planet.getImageName());

@@ -6,11 +6,11 @@ import android.util.Log;
 
 public class PlanetListItem {
     private String nom;
-    private int distanceASoleil;
+    private float distanceASoleil;
     private int imageName;
     private String description;
 
-    public PlanetListItem(int distanceASoleil, String nom, int imageName, String description) {
+    public PlanetListItem(float distanceASoleil, String nom, int imageName, String description) {
         this.distanceASoleil = distanceASoleil;
         this.nom = nom;
         this.imageName = imageName;
@@ -25,7 +25,7 @@ public class PlanetListItem {
         this.nom = nom;
     }
 
-    public int getDistanceASoleil() {
+    public float getDistanceASoleil() {
         return distanceASoleil;
     }
 

@@ -38,7 +38,7 @@ public class PlanetListAdapter extends RecyclerView.Adapter<PlanetItem> {
     public void onBindViewHolder(@NonNull PlanetItem holder, int position) {
         PlanetListItem item = items.get(position);
         holder.nom.setText(item.getNom());
-        holder.distance.setText("Distance au Soleil : " + item.getDistanceASoleil() + " km");
+        holder.distance.setText("Distance au Soleil : " + item.getDistanceASoleil() + " millions de km");
         holder.image.setImageResource(item.getImageName());
     }
 
